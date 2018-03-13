@@ -10,6 +10,7 @@ class Anagram
     matching_words.each do |matched_word|
     matched_word.split("")
   end
+  end
 
 
 
