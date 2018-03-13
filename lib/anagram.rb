@@ -9,6 +9,7 @@ class Anagram
     anagram_words = []
     matching_words.each do |matched_word|
     matched_word.split("")
+    matched_word.sort
   end
   end
 
