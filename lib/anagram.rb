@@ -8,6 +8,7 @@ class Anagram
   def match(matching_words)
     matching_words.each do |matched_word|
     matched_word.split("").sort == @word
+    puts @word
 
   end
   end
